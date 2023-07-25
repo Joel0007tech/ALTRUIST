@@ -5,7 +5,7 @@ export const navLinks ={
     fourth:"Volunteers"
 }
 export const Career ={
-    firstText:"Join Altruist Bond"
+    firstText:"Sign up and be part of the movement"
 }
 export const fixedLink={
     text:"JOIN US NOW"

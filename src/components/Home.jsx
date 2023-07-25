@@ -22,21 +22,20 @@ const Home = () => {
             <ul
               className="flex justify-center gap-24 sm:gap-2 text-center cursor-pointer pt-16" style={Font}
             >
-              <li className="text-black font-bold text-xl sm:text-sm sm:font-semibold hover:text-orange-500">
+              <li className="text-green-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-orange-500">
                 <Link to="/" target="_self">{navLinks.first}</Link>
               </li>
-              <li className="text-black font-bold text-xl sm:text-sm sm:font-semibold hover:text-orange-500">
+              <li className="text-green-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-orange-500">
                 <Link to="/collaborate">{navLinks.second}</Link>
               </li>
-              <li className="text-black font-bold text-xl sm:text-sm sm:font-semibold hover:text-orange-500">
+              <li className="text-green-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-orange-500">
                 <Link to="/community">{navLinks.third}</Link>
               </li>
-              <li className="text-black font-bold text-xl sm:text-sm sm:font-semibold hover:text-orange-500">
+              <li className="text-green-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-orange-500">
                 <Link to="/volunteers" target='_blank'>{navLinks.fourth}</Link>
               </li>   
             </ul>
           </div>
-          
         </div>
         <Careers/>
       </div>

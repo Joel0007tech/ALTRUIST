@@ -9,10 +9,10 @@ const Community = () => {
          border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-blue-400'>
           <img src={imageThird} alt="career-img" className='h-[350px] w-[450px]'/>
           <div className='flex flex-shrink flex-col gap-9'>
-          <h2 className='text-2xl font-bold text-black relative bottom-1'>
+          <h2 className='text-2xl font-bold text-white relative bottom-1'>
           EMBRACE A SUPPORTIVE<br/> CHANGE-MAKING COMMUNITY
           </h2>
-          <p className='leading-normal text-xl text-black relative bottom-1'>
+          <p className='leading-normal text-xl text-white relative bottom-1'>
           Whether you're an experienced professional<br/>
            or just starting out, our community welcomes you<br/>
             with open arms. Connect with passionate individuals,<br/>
