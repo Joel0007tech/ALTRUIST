@@ -1,5 +1,5 @@
 import React from 'react'
-import { Career, fixedLink } from '../constants'
+import { Career, cardHadings, fixedLink } from '../constants'
 import image from '../assets/careers.png';
 import Collaborate from './Collaborate';
 import Community from './Community';
@@ -11,9 +11,11 @@ const Careers = () => {
         <h3 className='text-green-500 font-bold text-3xl text-center pb-8 capitalize'>
             {Career.firstText}
         </h3>
-        <div className='flex flex-col gap-3 '>
-        <div className='flex relative m-auto gap-3 border-green-500
-         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-green-500'>
+        <div className='flex flex-col gap-3'>
+          <div className=' border-green-500
+         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-green-500 m-auto pb-8'>
+          <h3 className='text-center font-bold text-white text-2xl uppercase pb-6'>{cardHadings.first}</h3>
+<div className='flex relative m-auto gap-10'>
           <img src={image} alt="career-img" className='h-[350px] w-[450px]'/>
           <div className='flex flex-shrink flex-col gap-9'>
           <h2 className='text-2xl font-bold text-white relative bottom-1'>
@@ -26,11 +28,13 @@ const Careers = () => {
           </p>
           <a href='' className=' bg-white p-3 text-center w-44
            relative rounded-md font-semibold leading-relaxed
-            hover:bg-blue-300 hover:text-white top-2'>
+            hover:bg-blue-300 hover:text-white bottom-4'>
             {fixedLink.text}
           </a>
           </div>
         </div>
+         </div>
+        
         <section>
           <Collaborate/>
         </section>

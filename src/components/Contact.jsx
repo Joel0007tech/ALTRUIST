@@ -32,7 +32,7 @@ const Contact = () => {
         <div className=" flex justify-center mt-5">
         <a
               href=""
-              className="text-center bg-white py-3 px-9 sm:py-2 sm:my-4 text-orange-500
+              className="text-center bg-white py-3 px-9 sm:py-2 sm:my-4 text-black
                hover:bg-black hover:text-white font-semibold sm:text-sm
              w-[170px] sm:w-[150px] h-[50px] sm:h-[40px] rounded-lg">
                SUBMIT

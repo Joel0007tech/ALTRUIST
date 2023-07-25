@@ -1,12 +1,14 @@
 import React from 'react';
 import imageThird from '../assets/community.png';
-import { fixedLink } from '../constants';
+import { cardHadings, fixedLink } from '../constants';
 
 const Community = () => {
   return (
     <div>
-      <div className='flex relative m-auto gap-3 border-blue-400
-         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-blue-400'>
+<div className='3 border-blue-400
+         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-blue-400 pb-8 m-auto'>
+          <h3 className='text-center font-bold text-white text-2xl uppercase pb-6'>{cardHadings.third}</h3>
+<div className='flex relative m-auto gap-10'>
           <img src={imageThird} alt="career-img" className='h-[350px] w-[450px]'/>
           <div className='flex flex-shrink flex-col gap-9'>
           <h2 className='text-2xl font-bold text-white relative bottom-1'>
@@ -27,6 +29,7 @@ const Community = () => {
           </a>
           </div>
         </div>
+</div>
     </div>
   )
 }
