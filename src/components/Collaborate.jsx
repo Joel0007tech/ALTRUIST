@@ -15,7 +15,7 @@ const Collaborate = () => {
           <h2 className='text-2xl font-bold text- relative bottom-1 text-white'>
           UNITE AND AMPLIFY<br/> YOUR IMPACT
           </h2>
-          <p className='leading-normal text-xl text-white relative bottom-1 text-center'>
+          <p className='leading-normal text-xl text-white relative bottom-1 text-justify'>
           Join forces with like-minded individuals<br/> worldwide
            to work together on meaningful projects.<br/> Share ideas,
             enhance your skills, and discover<br/> potential partners to amplify your collective<br/> impact.
