@@ -14,7 +14,7 @@ const Community = () => {
           <h2 className='text-2xl font-bold text-white relative bottom-1'>
           EMBRACE A SUPPORTIVE<br/> CHANGE-MAKING COMMUNITY
           </h2>
-          <p className='leading-normal text-xl text-white relative bottom-1'>
+          <p className='leading-normal text-xl text-white relative bottom-1 text-center'>
           Whether you're an experienced professional<br/>
            or just starting out, our community welcomes you<br/>
             with open arms. Connect with passionate individuals,<br/>

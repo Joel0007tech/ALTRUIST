@@ -25,7 +25,7 @@ const Careers = () => {
           <h2 className='text-2xl font-bold text-white relative bottom-1'>
           BUILD YOUR CAREER,<br/> EARN MONEY,<br/> AND CHANGE THE WORLD
           </h2>
-          <p className='leading-normal text-xl text-white relative bottom-1'>
+          <p className='leading-normal text-xl text-white relative bottom-1 text-center'>
           Our platform offers a wide range of opportunities including jobs,<br/>
            internships, volunteering, and research placements,<br/>
             all geared towards creating a positive impact on society.
