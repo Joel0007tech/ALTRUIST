@@ -6,11 +6,11 @@ import { fixedLink } from '../constants';
 const Collaborate = () => {
   return (
     <div>
-       <div className='flex relative m-auto gap-3 border-blue-400
-         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-blue-400'>
+       <div className='flex relative m-auto gap-3 border-orange-500
+         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-orange-500'>
           <img src={imageSecond} alt="career-img" className='h-[350px] w-[450px]'/>
           <div className='flex flex-shrink flex-col gap-9'>
-          <h2 className='text-2xl font-bold text-black relative bottom-1'>
+          <h2 className='text-2xl font-bold text- relative bottom-1'>
           UNITE AND AMPLIFY<br/> YOUR IMPACT
           </h2>
           <p className='leading-normal text-xl text-black relative bottom-1'>
