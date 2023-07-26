@@ -4,6 +4,7 @@ import image from '../assets/careers.png';
 import Collaborate from './Collaborate';
 import Community from './Community';
 import Contact from './Contact';
+import Volunteers from './Volunteers';
 
 const Careers = () => {
   return (
@@ -44,6 +45,9 @@ const Careers = () => {
         </section>
         <section>
           <Community/>
+        </section>
+        <section>
+          <Volunteers/>
         </section>
         <section>
           <Contact/>
