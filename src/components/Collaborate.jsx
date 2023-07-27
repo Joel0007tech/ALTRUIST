@@ -1,5 +1,5 @@
 import React from 'react'
-import imageSecond from '../assets/collaboration.jpg';
+import imageSecond from '../assets/new-collaboration.jpg';
 import { cardHadings, fixedLink } from '../constants';
 
 

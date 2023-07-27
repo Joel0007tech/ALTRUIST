@@ -1,6 +1,6 @@
 import React from 'react'
 import { Career, cardHadings, fixedLink } from '../constants'
-import image from '../assets/careers.png';
+import image from '../assets/new-career.jpg';
 import Collaborate from './Collaborate';
 import Community from './Community';
 import Contact from './Contact';
@@ -39,7 +39,6 @@ const Careers = () => {
           </div>
         </div>
          </div>
-        
         <section>
           <Collaborate/>
         </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import imageThird from '../assets/community.png';
+import imageThird from '../assets/new-community.jpg';
 import { cardHadings, fixedLink } from '../constants';
 
 const Community = () => {
