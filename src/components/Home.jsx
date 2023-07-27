@@ -7,9 +7,9 @@ import image from "../assets/new-altruist.jpg";
 const Home = () => {
   
   const Font = {
-    fontFamily: "Roboto, sans-serif",
+    fontFamily: 'Poppins, sans-serif',
   };
-
+  
   return (
     <div>
         <div className="w-full h-full bg-white p-5">
