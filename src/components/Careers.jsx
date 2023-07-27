@@ -1,6 +1,6 @@
 import React from 'react'
 import { Career, cardHadings, fixedLink } from '../constants'
-import image from '../assets/new-career.jpg';
+import image from '../assets/new-edited-career.jpg';
 import Collaborate from './Collaborate';
 import Community from './Community';
 import Contact from './Contact';
@@ -24,7 +24,7 @@ const Careers = () => {
          border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-blue-500 m-auto pb-8'>
           <h3 className='text-center font-bold text-white text-2xl uppercase pb-6' style={Font}>{cardHadings.first}</h3>
 <div className='flex relative m-auto gap-10'>
-          <img src={image} alt="career-img" className='h-[350px] w-[450px]'/>
+          <img src={image} alt="career-img" className='h-[350px] w-[450px] rounded-2xl'/>
           <div className='flex flex-shrink flex-col gap-9'>
           <h2 className='text-2xl font-bold text-white relative bottom-1 text-center' style={Font}>
           BUILD YOUR CAREER,<br/> EARN MONEY,<br/> AND CHANGE THE WORLD

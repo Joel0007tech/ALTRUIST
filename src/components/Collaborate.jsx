@@ -1,5 +1,5 @@
 import React from 'react'
-import imageSecond from '../assets/new-collaboration.jpg';
+import imageSecond from '../assets/new-edited-collaboration.jpg';
 import { cardHadings, fixedLink } from '../constants';
 
 
@@ -13,7 +13,7 @@ const Collaborate = () => {
          border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-blue-500 pb-10 m-auto'>
           <h3 className='text-center font-bold text-white text-2xl uppercase pb-6' style={Font}>{cardHadings.second}</h3>
                  <div className='flex relative m-auto gap-10'>
-          <img src={imageSecond} alt="career-img" className='h-[350px] w-[450px]'/>
+          <img src={imageSecond} alt="career-img" className='h-[350px] w-[450px] rounded-2xl'/>
           <div className='flex flex-shrink flex-col gap-9'>
           <h2 className='text-2xl font-bold text- relative bottom-1 text-white text-center' style={Font}>
           UNITE AND AMPLIFY<br/> YOUR IMPACT

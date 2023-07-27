@@ -2,14 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { navLinks } from "../constants";
 import Careers from "./Careers";
-import image from "../assets/new-altruist.jpg";
+import image from "../assets/altruist-updated-logo-removebg-preview.png";
 
 const Home = () => {
   
   const Font = {
     fontFamily: 'Poppins, sans-serif',
   };
-  
+
   return (
     <div>
         <div className="w-full h-full bg-white p-5">
