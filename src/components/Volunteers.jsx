@@ -1,12 +1,13 @@
 import React from 'react'
 import { fixedLink } from '../constants'
-import image from "../assets/volunteers.jpg"
+// import './Style.css'
 
 const Volunteers = () => {
   return (
     <div>
+      <div className='vol'>
       <div className='pt-10'>
-<div className='flex justify-center flex-col gap-5 bg-green-500 w-[1200px] relative m-auto p-10 pl-18 pr-18 rounded-t-md'>
+<div className='flex justify-center flex-col gap-5 bg-blue-500 w-[1200px] relative m-auto p-10 pl-18 pr-18 rounded-t-md'>
   <div>
   <h3 className='text-white text-center text-2xl font-bold'>
 Join our  volunteer Team
@@ -71,6 +72,8 @@ Join our  volunteer Team
 </details>
 </div>
       </div>
+      </div>
+
     </div>
   )
 }

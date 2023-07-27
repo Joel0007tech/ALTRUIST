@@ -10,7 +10,7 @@ import {
 const Contact = () => {
   return (
     <div>
-        <div className='bg-green-500 w-[1200px] relative m-auto p-10 pl-18 pr-18 mt-10 rounded-b-md'>
+        <div className='bg-blue-500 w-[1200px] relative m-auto p-10 pl-18 pr-18 mt-10 rounded-b-md'>
         <h3 className='font-bold text-2xl text-center text-white pb-6'>Get In Touch</h3>
         <div className='flex justify-evenly'>
         <div className='flex flex-col'>

@@ -6,8 +6,8 @@ import { cardHadings, fixedLink } from '../constants';
 const Collaborate = () => {
   return (
     <div>
-      <div className='border-orange-500
-         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-orange-500 pb-10 m-auto'>
+      <div className='border-blue-500
+         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-blue-500 pb-10 m-auto'>
           <h3 className='text-center font-bold text-white text-2xl uppercase pb-6'>{cardHadings.second}</h3>
                  <div className='flex relative m-auto gap-10'>
           <img src={imageSecond} alt="career-img" className='h-[350px] w-[450px]'/>
@@ -23,7 +23,7 @@ const Collaborate = () => {
           </p>
           <a href='' className=' bg-white p-3 text-center w-44
            relative rounded-md font-semibold leading-relaxed
-            hover:bg-blue-300 hover:text-white top-3'>
+            hover:bg-black hover:text-white top-3'>
             {fixedLink.text}
           </a>
           </div>

@@ -17,8 +17,8 @@ const Careers = () => {
          opportunities<br/> that align with your passions and drive for positive social impact. </p>
          <p className='text-black text-center font-semibold text-xl relative bottom-3'>Embrace the movement and be a driving force for growth!!!</p>
           <div className='flex flex-col gap-3'>
-          <div className=' border-green-500
-         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-green-500 m-auto pb-8'>
+          <div className=' border-blue-400
+         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-blue-500 m-auto pb-8'>
           <h3 className='text-center font-bold text-white text-2xl uppercase pb-6'>{cardHadings.first}</h3>
 <div className='flex relative m-auto gap-10'>
           <img src={image} alt="career-img" className='h-[350px] w-[450px]'/>
@@ -33,7 +33,7 @@ const Careers = () => {
           </p>
           <a href='' className=' bg-white p-3 text-center w-44
            relative rounded-md font-semibold leading-relaxed
-            hover:bg-blue-300 hover:text-white bottom-4'>
+            hover:bg-black hover:text-white bottom-4'>
             {fixedLink.text}
           </a>
           </div>

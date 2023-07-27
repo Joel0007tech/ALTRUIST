@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { navLinks } from "../constants";
 import Careers from "./Careers";
-import image from "../assets/altruist logo.jpg";
+import image from "../assets/new-altruist.jpg";
 
 const Home = () => {
   
@@ -22,16 +22,16 @@ const Home = () => {
             <ul
               className="flex justify-center gap-24 sm:gap-2 text-center cursor-pointer pt-16" style={Font}
             >
-              <li className="text-green-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
+              <li className="text-blue-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
                 <Link to="/" target="_self">{navLinks.first}</Link>
               </li>
-              <li className="text-green-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
+              <li className="text-blue-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
                 <Link to="/collaborate">{navLinks.second}</Link>
               </li>
-              <li className="text-green-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
+              <li className="text-blue-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
                 <Link to="/community">{navLinks.third}</Link>
               </li>
-              <li className="text-green-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
+              <li className="text-blue-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
                 <Link to="/volunteers" target='_blank'>{navLinks.fourth}</Link>
               </li>   
             </ul>
