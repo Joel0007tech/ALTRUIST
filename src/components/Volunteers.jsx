@@ -10,7 +10,7 @@ const Volunteers = () => {
     <div>
       <div className='vol'>
       <div className='pt-10'>
-<div className='flex justify-center flex-col gap-5 bg-blue-500 w-[1200px] relative m-auto p-10 pl-18 pr-18 rounded-t-md'>
+<div className='flex justify-center flex-col gap-5 bg-blue-900 w-[1200px] relative m-auto p-10 pl-18 pr-18 rounded-t-md'>
   <div>
   <h3 className='text-white text-center text-2xl font-bold' style={Font}>
 Join our  volunteer Team
