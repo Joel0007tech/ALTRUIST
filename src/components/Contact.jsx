@@ -13,12 +13,12 @@ const Contact = () => {
   };
   return (
     <div>
-        <div className='bg-blue-500 w-[1200px] relative m-auto p-10 pl-18 pr-18 mt-10 rounded-b-md'>
-        <h3 className='font-bold text-2xl text-center text-white pb-6' style={Font}>Get In Touch</h3>
-        <div className='flex justify-evenly'>
+        <div className='bg-blue-500 w-[1200px] relative m-auto p-10 pl-18 pr-18 mt-10 rounded-b-md sm:flex sm:flex-col sm:w-auto'>
+        <h3 className='font-bold text-2xl text-center text-white pb-6 sm:text-center' style={Font}>Get In Touch</h3>
+        <div className='flex justify-evenly sm:flex sm:flex-col'>
         <div className='flex flex-col'>
-            <h3 className='font-bold text-2xl text-white pt-8' style={Font}>Our socials</h3>
-            <div className="flex gap-4 pt-14 relative right-3">
+            <h3 className='font-bold text-2xl text-white pt-8 sm:text-center' style={Font}>Our socials</h3>
+            <div className="flex gap-4 pt-14 relative right-3 sm:justify-center">
             <TbBrandWhatsapp className="text-white text-5xl fill-green-600 cursor-pointer sm:text-4xl" />
             <TbBrandLinkedin className="text-white text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
             <TbBrandTwitter className="text-blue-600 text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
@@ -28,8 +28,8 @@ const Contact = () => {
         <div className='flex flex-col'>
         <form className="flex flex-col pt-3 gap-2">
           <input type={"email"} placeholder="Email" className="m-auto pb-4 sm:pb-3 w-[550px] pt-4 sm:pt-3 pl-3 text-black text-lg sm:text-sm
-           bg-white font-semibold rounded-t-md sm:w-[320px]" style={Font}/>
-         <input type={"email"} placeholder="your query" className="m-auto pb-60 w-[550px] sm:w-[320px] pt-2 pl-3 text-black text-lg sm:text-sm
+           bg-white font-semibold rounded-t-md sm:w-[220px]" style={Font}/>
+         <input type={"email"} placeholder="your query" className="m-auto pb-60 w-[550px] sm:w-[220px] pt-2 pl-3 text-black text-lg sm:text-sm
           bg-white font-semibold rounded-b-md" style={Font}/>
         </form>
         <div className=" flex justify-center mt-5">

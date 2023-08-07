@@ -10,9 +10,9 @@ const Collaborate = () => {
   return (
     <div>
       <div className='border-blue-500
-         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-blue-900 pb-10 m-auto sm:w-auto sm:bg-red-200'>
+         border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-blue-900 pb-10 m-auto sm:w-auto'>
           <h3 className='text-center font-bold text-white text-2xl uppercase pb-6' style={Font}>{cardHadings.second}</h3>
-                 <div className='flex relative m-auto gap-10 sm:flex sm:flex-row'>
+                 <div className='flex relative m-auto gap-10 sm:flex sm:flex-col'>
           <img src={imageSecond} alt="career-img" className='h-[350px] w-[450px] rounded-2xl sm:h-[250px] sm:w-[250px]'/>
           <div className='flex flex-shrink flex-col gap-9'>
           <h2 className='text-2xl font-bold text- relative bottom-1 text-white text-center sm:m-auto' style={Font}>

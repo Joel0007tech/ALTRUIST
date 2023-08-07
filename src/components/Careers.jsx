@@ -22,12 +22,12 @@ const Careers = () => {
           <div className='flex flex-col gap-3'>
           <div className=' border-blue-400
          border-t-4 border-l-4 border-b-4 border-r-4 2xl:w-[1000px] p-4 rounded-md
-          bg-blue-500 m-auto pb-8'>
+          bg-blue-500 m-auto pb-8 sm:w-auto'>
           <h3 className='text-center font-bold text-white text-2xl uppercase pb-6' style={Font}>{cardHadings.first}</h3>
-<div className='2xl:flex-row 2xl:m-auto 2xl:gap-10'>
+<div className='flex relative m-auto gap-10 sm:flex sm:flex-col'>
           <img src={image} alt="career-img" className='h-[350px] w-[450px] rounded-2xl sm:h-[250px] sm:w-[250px]'/>
           <div className='flex flex-col gap-9'>
-          <h2 className='text-2xl font-bold text-white relative bottom-1 text-center sm:relative sm:text-green-500' style={Font}>
+          <h2 className='text-2xl font-bold text-white relative bottom-1 text-center sm:relative' style={Font}>
           BUILD YOUR CAREER,<br/> EARN MONEY,<br/> AND CHANGE THE WORLD
           </h2>
           <p className='leading-normal text-lg text-white relative bottom-1 text-center top-3' style={Font}>
