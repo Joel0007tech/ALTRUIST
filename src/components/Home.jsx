@@ -37,13 +37,11 @@ const Home = () => {
               </li>   
             </ul>
           </div>
-        </div>
-        <Careers/>
-        <div className="2xl:hidden">
+          <div>
            <div
         className="sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
          bg-blue-700 border-b-0 border-r-0 border-l-0
-          border-t-2 rounded-t-xl m-auto sm:mt-0"
+          border-t-2 rounded-t-xl m-auto sm:mt-0 2xl:hidden sm:block"
       >
         <div
           className=" overflow-hidden"
@@ -86,6 +84,8 @@ const Home = () => {
         )}
         </div>
         </div>
+        </div>
+        <Careers/>
       </div>
     </div>
   );
