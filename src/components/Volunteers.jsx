@@ -25,7 +25,7 @@ Join our  volunteer Team
   <p className='relative m-auto text-white text-xl text-center' style={Font}>Individuals who would want to use their skills to create<br/>
    appealing graphics for promotional materials, social media,<br/>
     and events to enhance the organization's visual identity..</p>
-   <a href='' className=' bg-white p-3 text-center w-44
+   <a href='https://bit.ly/AltruistMembershipForm' className=' bg-white p-3 text-center w-44
             rounded-md font-semibold leading-relaxed
             hover:bg-blue-300 hover:text-white bottom-4 mt-10 relative m-auto' style={Font}>
             {fixedLink.vol}
@@ -38,7 +38,7 @@ Join our  volunteer Team
   <p className='relative m-auto text-white text-xl text-center' style={Font}>Volunteers who are willing to develop content,<br/>
    engage with the audience, run campaigns, and maintain<br/>
     a positive online presence for the organization.</p>
-   <a href='' className=' bg-white p-3 text-center w-44
+   <a href='https://bit.ly/AltruistMembershipForm' className=' bg-white p-3 text-center w-44
            relative rounded-md font-semibold leading-relaxed
             hover:bg-blue-300 hover:text-white bottom-4 mt-10 m-auto' style={Font}>
             {fixedLink.vol}
@@ -53,7 +53,7 @@ Join our  volunteer Team
     articles, and newsletters to effectively communicate<br/>
      the organization's mission and activities
 </p>
-   <a href='' className=' bg-white p-3 text-center w-44
+   <a href='https://bit.ly/AltruistMembershipForm' className=' bg-white p-3 text-center w-44
            relative rounded-md font-semibold leading-relaxed
             hover:bg-blue-300 hover:text-white bottom-4 mt-10 m-auto' style={Font}>
             {fixedLink.vol}
@@ -66,7 +66,7 @@ Join our  volunteer Team
   <p className='relative m-auto text-white text-xl text-center' style={Font}>volunteers who would love to support project<br/>
    or program management, help with scheduling,<br/>
     documenting, and communication to ensure the<br/> smooth execution of initiatives.</p>
-   <a href='' className=' bg-white p-3 text-center w-44
+   <a href='https://bit.ly/AltruistMembershipForm' className=' bg-white p-3 text-center w-44
            relative rounded-md font-semibold leading-relaxed
             hover:bg-blue-300 hover:text-white bottom-4 mt-10 m-auto' style={Font}>
             {fixedLink.vol}

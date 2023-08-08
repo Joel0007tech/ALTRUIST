@@ -25,7 +25,7 @@ const Careers = () => {
           bg-blue-500 m-auto pb-8 sm:w-auto'>
           <h3 className='text-center font-bold text-white text-2xl uppercase pb-6' style={Font}>{cardHadings.first}</h3>
 <div className='flex relative m-auto gap-10 sm:flex sm:flex-col'>
-          <img src={image} alt="career-img" className='h-[350px] w-[450px] rounded-2xl sm:h-[250px] sm:w-[250px] sm:m-auto'/>
+          <img src={image} alt="career-img" className='h-[350px] w-[450px] rounded-2xl sm:h-[250px] sm:w-[300px] sm:m-auto'/>
           <div className='flex flex-col gap-9'>
           <h2 className='text-2xl font-bold text-white relative bottom-1 text-center sm:relative' style={Font}>
           BUILD YOUR CAREER,<br/> EARN MONEY,<br/> AND CHANGE THE WORLD
