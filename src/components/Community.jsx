@@ -12,7 +12,7 @@ const Community = () => {
          border-t-4 border-l-4 border-b-4 border-r-4 w-[1000px] p-4 rounded-md bg-blue-500 pb-8 m-auto sm:w-auto sm:flex-row'>
           <h3 className='text-center font-bold text-white text-2xl uppercase pb-6' style={Font}>{cardHadings.third}</h3>
 <div className='flex relative m-auto gap-10 sm:flex sm:flex-col'>
-          <img src={imageThird} alt="career-img" className='h-[350px] w-[450px] rounded-2xl sm:h-[250px] sm:w-[250px]'/>
+          <img src={imageThird} alt="career-img" className='h-[350px] w-[450px] rounded-2xl sm:h-[250px] sm:w-[250px] sm:m-auto'/>
           <div className='flex flex-shrink flex-col gap-9'>
           <h2 className='text-2xl font-bold text-white relative bottom-1 text-center' style={Font}>
           EMBRACE A SUPPORTIVE<br/> CHANGE-MAKING COMMUNITY
