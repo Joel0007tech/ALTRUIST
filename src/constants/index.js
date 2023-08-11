@@ -17,3 +17,6 @@ export const cardHadings={
     third:"⇉ Community ⇇",
     fourth:"⇉ Volunteers ⇇"
 }
+
+// let num = [10,20,30,40,50]
+// console.log(num.slice(2,4))
