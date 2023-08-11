@@ -27,9 +27,9 @@ const Contact = () => {
         </div>
         <div className='flex flex-col'>
         <form className="flex flex-col pt-3 gap-2">
-          <input type={"email"} placeholder="Email" className="m-auto pb-4 sm:pb-3 w-[550px] sm:w-[260px]  pt-4 sm:pt-3 pl-3 text-black text-lg sm:text-sm
+          <input type={"email"} placeholder="Email" className="m-auto pb-4 sm:pb-3 w-[550px] sm:w-[300px]  pt-4 sm:pt-3 pl-3 text-black text-lg sm:text-sm
            bg-white font-semibold rounded-t-md " style={Font}/>
-         <input type={"email"} placeholder="your query" className="m-auto pb-60 w-[550px] sm:w-[260px] pt-2 pl-3 text-black text-lg sm:text-sm
+         <input type={"email"} placeholder="your query" className="m-auto pb-60 w-[550px] sm:w-[300px] pt-2 pl-3 text-black text-lg sm:text-sm
           bg-white font-semibold rounded-b-md" style={Font}/>
         </form>
         <div className=" flex justify-center mt-5">
