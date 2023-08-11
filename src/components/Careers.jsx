@@ -12,6 +12,9 @@ const Careers = () => {
   };
   return (
     <div>
+      <div className='2xl:hidden sm:block'>
+<h3>hello</h3>
+      </div>
         <h3 className='text-black font-bold text-3xl text-center pb-8 capitalize' style={Font}>
             {Career.firstText}
         </h3>
