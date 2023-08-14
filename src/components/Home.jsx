@@ -49,8 +49,7 @@ const Home = () => {
         <div className="hidden sm:block">
         <div
         className="p-5 h-full w-[1850px] sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
-         border-b-0 border-r-0 border-l-0
-          border-t-2 rounded-t-xl m-auto sm:mt-0"
+         m-auto sm:mt-0"
       >
         <div
           className=" overflow-hidden"
@@ -59,10 +58,10 @@ const Home = () => {
             <img
               src={image}
               alt=""
-              className="w-[90px] sm:w-[50px] h-[50px] sm:h-[30px]"/>
+              className="sm:w-[100px] sm:h-[70px]"/>
             <FaBars
               className="cursor-pointer sm:cursor-pointer text-white sm:text-blue-700
-              sm:text-2xl text-4xl float-right font-normal hover:text-gray sm:float-right"
+              sm:text-2xl text-4xl float-right font-normal hover:text-gray sm:float-right relative top-5"
               onClick={() => setOpen(!open)}
             />
           </div>
