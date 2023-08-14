@@ -5,7 +5,7 @@ import Collaborate from './Collaborate';
 import Community from './Community';
 import Contact from './Contact';
 import Volunteers from './Volunteers';
-
+import { Element } from 'react-scroll';
 const Careers = () => {
   const Font = {
     fontFamily: 'Poppins, sans-serif',
@@ -43,15 +43,15 @@ const Careers = () => {
           </div>
         </div>
          </div>
-        <section>
-          <Collaborate/>
-        </section>
-        <section>
-          <Community/>
-        </section>
-        <section>
-          <Volunteers/>
-        </section>
+         <Element name="collaborate" className="collab">
+           <Collaborate/>
+         </Element>
+         <Element name="community" className="community">
+           <Community/>
+         </Element>
+          <Element name="volunteers" className="volunteer">
+           <Volunteers/>
+         </Element>
         <section>
           <Contact/>
         </section>

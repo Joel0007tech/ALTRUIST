@@ -4,6 +4,7 @@ import { navLinks } from "../constants";
 import Careers from "./Careers";
 import image from "../assets/altruist-updated-logo-removebg-preview.png";
 import { FaBars } from "react-icons/fa";
+import { Link as ScrollLink} from 'react-scroll';
 
 const Home = () => {
   const Font = {
@@ -27,15 +28,19 @@ const Home = () => {
                 </Link>
               </li>
               <li className="text-blue-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
-                <Link to="/collaborate">{navLinks.second}</Link>
+              <ScrollLink to="collaborate" smooth={true} duration={500}>
+                 {navLinks.second}
+               </ScrollLink>
               </li>
               <li className="text-blue-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
-                <Link to="/community">{navLinks.third}</Link>
+              <ScrollLink to="community" smooth={true} duration={500}>
+                 {navLinks.third}
+               </ScrollLink>
               </li>
               <li className="text-blue-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
-                <Link to="/volunteers" target="_blank">
-                  {navLinks.fourth}
-                </Link>
+              <ScrollLink to="volunteers" smooth={true} duration={500}>
+                 {navLinks.fourth}
+               </ScrollLink>
               </li>
             </ul>
           </div>
@@ -72,23 +77,25 @@ const Home = () => {
             pb-10" style={Font}
             >
               <li className="text-blue-700 font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
-                <Link to="/" target='_blank'>{navLinks.first}</Link>
+                <Link to="/" target="_self">{navLinks.first}</Link>
               </li>
               <li className="text-blue-700 font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
-                <Link to="/about" target='__blank'>{navLinks.second}</Link>
+                <Link to="/collaborate" target='_self'>{navLinks.second}</Link>
               </li>
               <li className="text-blue-700 font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
-                <Link to="/skills" target='_blank'>{navLinks.third}</Link>
+                <Link to="/community" target='_self'>{navLinks.third}</Link>
               </li>
               <li className="text-blue-700 font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
-                <Link to="/contact" target='_blank'>{navLinks.fourth}</Link>
+                <Link to="/volunteer" target='_self'>{navLinks.fourth}</Link>
               </li>   
             </ul>
           </div>
         )}
         </div>
         </div>
+        <section>
         <Careers />
+        </section>
       </div>
     </div>
   );
