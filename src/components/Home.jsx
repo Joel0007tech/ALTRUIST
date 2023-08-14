@@ -54,7 +54,7 @@ const Home = () => {
         <div
           className=" overflow-hidden"
         >
-          <div className="sm:flex flex justify-between">
+          <div className="sm:flex sm:justify-between">
             <img
               src={image}
               alt=""
@@ -72,7 +72,7 @@ const Home = () => {
           sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800 pt-9"
           >
             <ul
-              className="flex justify-center flex-col gap-10 sm:gap-2 text-center cursor-pointer
+              className="flex justify-center flex-col gap-10 sm:gap-4 text-center cursor-pointer
             pb-10" style={Font}
             >
               <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
