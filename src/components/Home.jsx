@@ -80,13 +80,19 @@ const Home = () => {
                 <Link to="/" target="_self">{navLinks.first}</Link>
               </li>
               <li className="text-blue-700 font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
-                <Link to="/collaborate" target='_self'>{navLinks.second}</Link>
+              <ScrollLink to="collaborate" smooth={true} duration={500}>
+                 {navLinks.second}
+               </ScrollLink>
               </li>
               <li className="text-blue-700 font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
-                <Link to="/community" target='_self'>{navLinks.third}</Link>
+              <ScrollLink to="community" smooth={true} duration={500}>
+                 {navLinks.third}
+               </ScrollLink>
               </li>
               <li className="text-blue-700 font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
-                <Link to="/volunteer" target='_self'>{navLinks.fourth}</Link>
+              <ScrollLink to="volunteers" smooth={true} duration={500}>
+                 {navLinks.fourth}
+               </ScrollLink>
               </li>   
             </ul>
           </div>
