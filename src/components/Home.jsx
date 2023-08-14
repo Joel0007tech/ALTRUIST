@@ -70,26 +70,26 @@ const Home = () => {
         {open && (
           <div
             className="overflow-hidden
-          sm:border-b-2 sm:border-white sm:rounded-b-md"
+          sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800 pt-9"
           >
             <ul
-              className="flex justify-center flex-col gap-6 sm:gap-2 text-center cursor-pointer
+              className="flex justify-center flex-col gap-10 sm:gap-2 text-center cursor-pointer
             pb-10" style={Font}
             >
-              <li className="text-blue-700 font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/" target="_self">{navLinks.first}</Link>
               </li>
-              <li className="text-blue-700 font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
               <ScrollLink to="collaborate" smooth={true} duration={500}>
                  {navLinks.second}
                </ScrollLink>
               </li>
-              <li className="text-blue-700 font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
               <ScrollLink to="community" smooth={true} duration={500}>
                  {navLinks.third}
                </ScrollLink>
               </li>
-              <li className="text-blue-700 font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
+              <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
               <ScrollLink to="volunteers" smooth={true} duration={500}>
                  {navLinks.fourth}
                </ScrollLink>
