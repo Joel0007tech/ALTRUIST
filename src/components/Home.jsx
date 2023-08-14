@@ -58,10 +58,10 @@ const Home = () => {
             <img
               src={image}
               alt=""
-              className="sm:w-[100px] sm:h-[70px]"/>
+              className="sm:w-[100px] sm:h-[70px] relative bottom-4"/>
             <FaBars
               className="cursor-pointer sm:cursor-pointer text-white sm:text-blue-700
-              sm:text-2xl text-4xl float-right font-normal hover:text-gray sm:float-right relative top-5"
+              sm:text-2xl text-4xl float-right font-normal hover:text-gray sm:float-right relative"
               onClick={() => setOpen(!open)}
             />
           </div>
