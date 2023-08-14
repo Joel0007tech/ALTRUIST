@@ -69,7 +69,7 @@ const Home = () => {
         {open && (
           <div
             className="overflow-hidden
-          sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800 pt-9"
+          sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800 pt-9 sm:w-full"
           >
             <ul
               className="flex justify-center flex-col gap-10 sm:gap-4 text-center cursor-pointer
