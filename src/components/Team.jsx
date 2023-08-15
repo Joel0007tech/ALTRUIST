@@ -12,10 +12,30 @@ const Team = () => {
     <div>
         <div>
           <h3 className='text-blue-700 font-bold text-2xl text-center'>Team</h3>
-          <div className='flex justify-center'>
-           <div className='flex flex-col'>
-            <h3></h3>
-            <p></p>
+          <div className='flex justify-center gap-3'>
+           <div className='flex flex-col bg-blue-500'>
+            <h3>{teamName.CEO}</h3>
+            <p>{teamPost.first}</p>
+            <div className='flex'>
+            <TbBrandInstagram/>
+            <TbBrandLinkedin/>
+            <TbBrandTwitter/>
+            <TbBrandWhatsapp/>
+            </div>
+           </div>
+           <div className='flex flex-col bg-blue-500'>
+            <h3>{teamName.contentCreator}</h3>
+            <p>{teamPost.second}</p>
+            <div className='flex'>
+            <TbBrandInstagram/>
+            <TbBrandLinkedin/>
+            <TbBrandTwitter/>
+            <TbBrandWhatsapp/>
+            </div>
+           </div>
+           <div className='flex flex-col bg-blue-500'>
+            <h3>{teamName.webDev}</h3>
+            <p>{teamPost.third}</p>
             <div className='flex'>
             <TbBrandInstagram/>
             <TbBrandLinkedin/>
