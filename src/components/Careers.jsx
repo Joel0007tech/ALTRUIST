@@ -5,6 +5,7 @@ import Collaborate from './Collaborate';
 import Community from './Community';
 import Contact from './Contact';
 import Volunteers from './Volunteers';
+import Team from './Team';
 import { Element } from 'react-scroll';
 const Careers = () => {
   const Font = {
@@ -52,6 +53,9 @@ const Careers = () => {
           <Element name="volunteers" className="volunteer">
            <Volunteers/>
          </Element>
+         <section>
+        <Team/>
+         </section>
         <section>
           <Contact/>
         </section>
