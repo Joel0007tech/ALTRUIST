@@ -5,7 +5,7 @@ import { cardHadings, fixedLink } from '../constants';
 
 const Collaborate = () => {
   const Font = {
-    fontFamily: 'Poppins, sans-serif',
+    fontFamily: 'Roboto, sans-serif',
   };
   return (
     <div>
@@ -15,7 +15,7 @@ const Collaborate = () => {
                  <div className='flex relative m-auto gap-10 sm:flex sm:flex-col'>
           <img src={imageSecond} alt="career-img" className='h-[350px] w-[450px] rounded-2xl sm:h-[250px] sm:w-[300px] sm:m-auto'/>
           <div className='flex flex-shrink flex-col gap-9'>
-          <h2 className='text-2xl font-bold text- relative bottom-1 text-white text-center sm:m-auto' style={Font}>
+          <h2 className='text-2xl font-extrabold text- relative bottom-1 text-white text-center sm:m-auto' style={Font}>
           UNITE AND AMPLIFY<br/> YOUR IMPACT
           </h2>
           <p className='leading-normal text-lg text-white relative bottom-1 text-center pt-5' style={Font}>

@@ -9,7 +9,7 @@ import background from "../assets/altruist-background.jpg"
 
 const Home = () => {
   const Font = {
-    fontFamily: "Poppins, sans-serif",
+    fontFamily: "Roboto, sans-serif",
   };
 const contentBackground ={
   backgroundImage:`url(${background})`,

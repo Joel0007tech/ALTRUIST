@@ -4,7 +4,7 @@ import { cardHadings, fixedLink } from '../constants';
 
 const Community = () => {
   const Font = {
-    fontFamily: 'Poppins, sans-serif',
+    fontFamily: 'Roboto, sans-serif',
   };
   return (
     <div>
@@ -14,7 +14,7 @@ const Community = () => {
 <div className='flex relative m-auto gap-10 sm:flex sm:flex-col'>
           <img src={imageThird} alt="career-img" className='h-[350px] w-[450px] rounded-2xl sm:h-[250px] sm:w-[300px] sm:m-auto'/>
           <div className='flex flex-shrink flex-col gap-9'>
-          <h2 className='text-2xl font-bold text-white relative bottom-1 text-center' style={Font}>
+          <h2 className='text-2xl text-white relative bottom-1 text-center font-bold' style={Font}>
           EMBRACE A SUPPORTIVE<br/> CHANGE-MAKING COMMUNITY
           </h2>
           <p className='leading-normal text-lg text-white relative bottom-1 text-center' style={Font}>

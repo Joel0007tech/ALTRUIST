@@ -11,17 +11,17 @@ import { Element } from 'react-scroll';
 
 const Careers = () => {
   const Font = {
-    fontFamily: 'Poppins, sans-serif',
+    fontFamily: 'Roboto, sans-serif',
   };
   return (
     <div>
-        <h3 className='text-white font-bold text-3xl text-center pb-8 capitalize' style={Font}>
+        <h3 className='text-white font-bold text-3xl text-center pb-8 capitalize sm:text-xl' style={Font}>
             {Career.firstText}
         </h3>
-        <h2 className='text-center text-2xl font-bold text-white relative bottom-6' style={Font}>Together, We're Constructing The Largest Global Community Of Change Makers.</h2>
-        <p className='text-center text-white font-semibold text-xl relative bottom-4' style={Font}>At Altruist Bond, you'll have access to meaningful career, job, and internship
+        <h2 className='text-center text-2xl font-bold text-white relative bottom-6 sm:text-lg sm:font-medium' style={Font}>Together, We're Constructing The Largest Global Community Of Change Makers.</h2>
+        <p className='text-center text-white font-semibold text-xl relative bottom-4 sm:text-lg sm:font-medium' style={Font}>At Altruist Bond, you'll have access to meaningful career, job, and internship
          opportunities<br/> that align with your passions and drive for positive social impact. </p>
-         <p className='text-white text-center font-semibold text-xl relative bottom-3' style={Font}>Embrace the movement and be a driving force for growth!!!</p>
+         <p className='text-white text-center font-semibold text-xl relative bottom-3 sm:text-lg sm:font-medium' style={Font}>Embrace the movement and be a driving force for growth!!!</p>
           <div className='flex flex-col gap-3'>
           <div className=' border-blue-400
          border-t-4 border-l-4 border-b-4 border-r-4 2xl:w-[1000px] p-4 rounded-md
@@ -30,7 +30,7 @@ const Careers = () => {
 <div className='flex relative m-auto gap-10 sm:flex sm:flex-col'>
           <img src={image} alt="career-img" className='h-[350px] w-[450px] rounded-2xl sm:h-[250px] sm:w-[300px] sm:m-auto'/>
           <div className='flex flex-col gap-9'>
-          <h2 className='text-2xl font-bold text-white relative bottom-1 text-center sm:relative' style={Font}>
+          <h2 className='text-2xl font-extrabold text-white relative bottom-1 text-center sm:relative' style={Font}>
           BUILD YOUR CAREER,<br/> EARN MONEY,<br/> AND CHANGE THE WORLD
           </h2>
           <p className='leading-normal text-lg text-white relative bottom-1 text-center top-3' style={Font}>
