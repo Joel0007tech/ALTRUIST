@@ -12,7 +12,7 @@ const Team = () => {
   return (
     <div>
         <div>
-          <h3 className='text-blue-700 font-bold text-2xl text-center'>Team</h3>
+          <h3 className='text-white font-bold text-2xl text-center'>Team</h3>
           <div className='flex justify-center gap-3 sm:flex sm:flex-col'>
            <div className='flex flex-col bg-blue-500'>
             <img src={image} alt="img-team" style={{width:400, height:400, borderRadius:400/2}}/>

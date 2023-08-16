@@ -7,19 +7,21 @@ import Contact from './Contact';
 import Volunteers from './Volunteers';
 import Team from './Team';
 import { Element } from 'react-scroll';
+
+
 const Careers = () => {
   const Font = {
     fontFamily: 'Poppins, sans-serif',
   };
   return (
     <div>
-        <h3 className='text-black font-bold text-3xl text-center pb-8 capitalize' style={Font}>
+        <h3 className='text-white font-bold text-3xl text-center pb-8 capitalize' style={Font}>
             {Career.firstText}
         </h3>
-        <h2 className='text-center text-2xl font-bold text-black relative bottom-6' style={Font}>Together, We're Constructing The Largest Global Community Of Change Makers.</h2>
-        <p className='text-center text-black font-semibold text-xl relative bottom-4' style={Font}>At Altruist Bond, you'll have access to meaningful career, job, and internship
+        <h2 className='text-center text-2xl font-bold text-white relative bottom-6' style={Font}>Together, We're Constructing The Largest Global Community Of Change Makers.</h2>
+        <p className='text-center text-white font-semibold text-xl relative bottom-4' style={Font}>At Altruist Bond, you'll have access to meaningful career, job, and internship
          opportunities<br/> that align with your passions and drive for positive social impact. </p>
-         <p className='text-black text-center font-semibold text-xl relative bottom-3' style={Font}>Embrace the movement and be a driving force for growth!!!</p>
+         <p className='text-white text-center font-semibold text-xl relative bottom-3' style={Font}>Embrace the movement and be a driving force for growth!!!</p>
           <div className='flex flex-col gap-3'>
           <div className=' border-blue-400
          border-t-4 border-l-4 border-b-4 border-r-4 2xl:w-[1000px] p-4 rounded-md

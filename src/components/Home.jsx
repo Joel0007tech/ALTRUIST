@@ -2,42 +2,49 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { navLinks } from "../constants";
 import Careers from "./Careers";
-import image from "../assets/altruist-updated-logo-removebg-preview.png";
+import image from "../assets/altruist-updated-logo.jpg";
 import { FaBars } from "react-icons/fa";
 import { Link as ScrollLink} from 'react-scroll';
+import background from "../assets/altruist-background.jpg"
 
 const Home = () => {
   const Font = {
     fontFamily: "Poppins, sans-serif",
   };
+const contentBackground ={
+  backgroundImage:`url(${background})`,
+  height:"440vh",
+  backgroundSize:"cover",
+  backgroundRepeat:"no-repeat"
+}
   const [open, setOpen] = useState(false);
   return (
     <div>
-      <div className="w-full h-full bg-white p-5">
+      <div className="w-full h-full" style={contentBackground}>
         <div className="block sm:hidden">
         <div className="flex justify-evenly">
-          <img src={image} alt="altruist" className="w-[200px] h-[150px]" />
+          <img src={image} alt="altruist" className="w-[120px] h-[100px] pt-6" />
           <div className="relative right-10 ">
             <ul
               className="flex justify-center gap-24 sm:gap-2 text-center cursor-pointer pt-16"
               style={Font}
             >
-              <li className="text-blue-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
+              <li className="text-white font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
                 <Link to="/" target="_self">
                   {navLinks.first}
                 </Link>
               </li>
-              <li className="text-blue-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
+              <li className="text-white font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
               <ScrollLink to="collaborate" smooth={true} duration={500}>
                  {navLinks.second}
                </ScrollLink>
               </li>
-              <li className="text-blue-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
+              <li className="text-white font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
               <ScrollLink to="community" smooth={true} duration={500}>
                  {navLinks.third}
                </ScrollLink>
               </li>
-              <li className="text-blue-500 font-bold text-xl sm:text-sm sm:font-semibold hover:text-black">
+              <li className="text-white font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
               <ScrollLink to="volunteers" smooth={true} duration={500}>
                  {navLinks.fourth}
                </ScrollLink>
@@ -60,8 +67,8 @@ const Home = () => {
               alt=""
               className="sm:w-[100px] sm:h-[70px] relative bottom-4"/>
             <FaBars
-              className="cursor-pointer sm:cursor-pointer text-white sm:text-blue-700
-              sm:text-2xl text-4xl float-right font-normal hover:text-gray sm:float-right relative"
+              className="cursor-pointer sm:cursor-pointer sm:text-white
+              sm:text-2xl text-4xl float-right font-normal hover:text-blue-400 sm:float-right relative"
               onClick={() => setOpen(!open)}
             />
           </div>
@@ -98,7 +105,7 @@ const Home = () => {
         )}
         </div>
         </div>
-        <section>
+        <section className="mt-12">
         <Careers />
         </section>
       </div>
