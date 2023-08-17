@@ -13,7 +13,7 @@ const Home = () => {
   };
 const contentBackground ={
   backgroundImage:`url(${background})`,
-  height:"440vh",
+  height:"contain",
   backgroundSize:"cover",
   backgroundRepeat:"no-repeat"
 }
@@ -56,8 +56,7 @@ const contentBackground ={
         <div className="hidden sm:block">
         <div
         className="p-5 h-full w-[1850px] sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
-         m-auto sm:mt-0"
-      >
+         m-auto sm:mt-0" style={contentBackground}>
         <div
           className=" overflow-hidden"
         >
@@ -68,7 +67,7 @@ const contentBackground ={
               className="sm:w-[100px] sm:h-[70px] relative bottom-4"/>
             <FaBars
               className="cursor-pointer sm:cursor-pointer sm:text-white
-              sm:text-2xl text-4xl float-right font-normal hover:text-blue-400 sm:float-right relative"
+              sm:text-2xl text-4xl float-right font-normal hover:text-blue-400 sm:float-right relative top-4"
               onClick={() => setOpen(!open)}
             />
           </div>

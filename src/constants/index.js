@@ -18,12 +18,12 @@ export const cardHadings={
     fourth:"⇉ Volunteers ⇇"
 }
 export const teamName={
-   CEO:"Gracefield",
-   contentCreator:"Nuel",
-   webDev:"Joel"
+   CEO:"Joybliss Ifeanyichukwu",
+   contentCreator:"Emmanuel Akhadaghe",
+   webDev:"Joel Ajiola"
 }
 export const teamPost={
-    first:"CEO",
-    second:"Content Creator",
-    third:"Web Developer"
+    first:"Co founder & CEO",
+    second:"Co founder & COO",
+    third:"Co founder & CTO"
 }
