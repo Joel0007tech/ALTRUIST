@@ -5,6 +5,7 @@ import {
   TbBrandLinkedin,
   TbBrandTwitter,
   TbBrandInstagram,
+  TbBrandFacebook,
 } from "react-icons/tb";
 
 const Contact = () => {
@@ -19,10 +20,11 @@ const Contact = () => {
         <div className='flex flex-col'>
             <h3 className='font-bold text-2xl text-white pt-8 sm:text-center' style={Font}>Our socials</h3>
             <div className="flex gap-4 pt-14 relative right-3 sm:justify-center">
-            <TbBrandWhatsapp className="text-white text-5xl fill-green-600 cursor-pointer sm:text-4xl" />
-            <TbBrandLinkedin className="text-white text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
-            <TbBrandTwitter className="text-blue-600 text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
-            <TbBrandInstagram className="text-white text-5xl fill-red-700 cursor-pointer sm:text-4xl" />
+            <TbBrandWhatsapp href='' className="text-white text-5xl fill-green-600 cursor-pointer sm:text-4xl" />
+            <TbBrandLinkedin href='' className="text-white text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
+            <TbBrandTwitter href='' className="text-blue-600 text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
+            <TbBrandInstagram href='' className="text-white text-5xl fill-red-700 cursor-pointer sm:text-4xl" />
+            <TbBrandFacebook href='' className="text-white text-5xl fill-red-700 cursor-pointer sm:text-4xl" />
           </div>
         </div>
         <div className='flex flex-col'>
