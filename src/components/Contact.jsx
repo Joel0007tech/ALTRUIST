@@ -24,7 +24,7 @@ const Contact = () => {
             <TbBrandLinkedin href='https://www.linkedin.com/in/altruist-bond-505804283/' className="text-white text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
             <TbBrandTwitter href='https://twitter.com/AltruistB75778' className="text-blue-600 text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
             <TbBrandInstagram href='https://instagram.com/' className="text-white text-5xl fill-red-700 cursor-pointer sm:text-4xl" />
-            <TbBrandFacebook href='' className="text-white text-5xl fill-red-700 cursor-pointer sm:text-4xl" />
+            <TbBrandFacebook href='' className="text-white text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
           </div>
         </div>
         <div className='flex flex-col'>
