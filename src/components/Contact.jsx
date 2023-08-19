@@ -19,7 +19,7 @@ const Contact = () => {
         <div className='flex justify-evenly sm:flex sm:flex-col'>
         <div className='flex flex-col'>
             <h3 className='font-bold text-2xl text-white pt-8 sm:text-center' style={Font}>Our socials</h3>
-            <div className="flex gap-4 pt-14 relative right-3 sm:justify-center">
+            <div className="flex gap-4 pt-14 relative 2xl:right-3 sm:justify-center">
             <TbBrandWhatsapp href='https://chat.whatsapp.com/KJmWZtf2gl9Jmi6ybsqV8w' className="text-white text-5xl fill-green-600 cursor-pointer sm:text-4xl" />
             <TbBrandLinkedin href='https://www.linkedin.com/in/altruist-bond-505804283/' className="text-white text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
             <TbBrandTwitter href='https://twitter.com/AltruistB75778' className="text-blue-600 text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />

@@ -18,7 +18,7 @@ const Team = () => {
           <h3 className='text-white font-bold text-2xl text-center'>Team</h3>
           <div className='flex justify-center gap-3 sm:flex sm:flex-col'>
            <div className='flex flex-col bg-blue-500 p-16'>
-            <img src={Joybliss} alt="img-team" style={{width:200, height:250, borderRadius:400/2}}/>
+            <img src={Joybliss} alt="img-team" style={{width:200, height:250, borderRadius:400/2}} className='sm:m-auto'/>
             <h3 className="text-center">{teamName.CEO}</h3>
             <p className="text-center">{teamPost.first}</p>
             <div className='flex justify-center'>
@@ -40,7 +40,7 @@ const Team = () => {
             </div>
            </div>
            <div className='flex flex-col bg-blue-500 pt-16'>
-            <img src={Joel} alt="img-team" style={{width:320, height:250, borderRadius:400/2}}/>
+            <img src={Joel} alt="img-team" style={{width:320, height:250, borderRadius:400/2}} className='sm:m-auto'/>
             <h3 className="text-center">{teamName.webDev}</h3>
             <p className="text-center">{teamPost.third}</p>
             <div className='flex justify-center'>
