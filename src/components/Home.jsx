@@ -72,7 +72,7 @@ backgroundColor:"white"
         {open && (
           <div
             className="overflow-hidden
-          sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800 pt-9 sm:w-full"
+          sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800 sm:pb-3 sm:pt-4 sm:w-full"
           >
             <ul
               className="flex justify-center flex-col gap-10 sm:gap-6 text-center cursor-pointer
@@ -101,7 +101,7 @@ backgroundColor:"white"
         )}
         </div>
         </div>
-        <section className="2xl:mt-4">
+        <section className="2xl:mt-4 sm:relative sm:bottom-4">
         <Careers />
         </section>
       </div>
