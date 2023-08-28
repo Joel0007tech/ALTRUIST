@@ -14,11 +14,11 @@ const Contact = () => {
   };
   return (
     <div>
-        <div className='bg-blue-500 w-[1200px] relative m-auto p-10 pl-18 pr-18 mt-10 rounded-b-md sm:flex sm:flex-col sm:w-auto'>
-        <h3 className='font-bold text-2xl text-center text-white pb-6 sm:text-center' style={Font}>Get In Touch</h3>
+        <div className='bg-blue-500 w-[1200px] relative m-auto 2xl:p-10 2xl:pl-18 2xl:pr-18 2xl:mt-10 rounded-b-md sm:flex sm:flex-col sm:w-auto'>
+        <h3 className='font-bold text-2xl text-center text-white 2xl:pb-6 sm:text-center' style={Font}>Get In Touch</h3>
         <div className='flex justify-evenly sm:flex sm:flex-col'>
         <div className='flex flex-col'>
-            <h3 className='font-bold text-2xl text-white pt-8 sm:text-center' style={Font}>Our socials</h3>
+            <h3 className='font-bold text-2xl text-white 2xl:pt-8 sm:text-center' style={Font}>Our socials</h3>
             <div className="flex gap-4 pt-14 relative 2xl:right-3 sm:justify-center">
             <TbBrandWhatsapp href='https://chat.whatsapp.com/KJmWZtf2gl9Jmi6ybsqV8w' className="text-white text-5xl fill-green-600 cursor-pointer sm:text-4xl" />
             <TbBrandLinkedin href='https://www.linkedin.com/in/altruist-bond-505804283/' className="text-white text-5xl fill-blue-600 cursor-pointer sm:text-4xl" />
