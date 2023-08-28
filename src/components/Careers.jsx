@@ -18,7 +18,7 @@ const Careers = () => {
         <h3 className='text-black font-bold text-3xl text-center pb-8 capitalize sm:text-xl' style={Font}>
             {Career.firstText}
         </h3>
-        <h2 className='text-center text-2xl font-bold text-black relative bottom-6 sm:text-lg sm:font-medium' style={Font}>
+        <h2 className='text-center text-2xl font-bold text-black sm:relative sm:bottom-6 sm:text-lg sm:font-medium' style={Font}>
           Together, We're Constructing The Largest Global Community Of Change Makers.</h2>
         <p className='text-center text-black font-semibold text-xl relative bottom-4 sm:text-lg sm:font-medium' style={Font}>
           At Altruist Bond, you'll have access to meaningful career, job, and internship

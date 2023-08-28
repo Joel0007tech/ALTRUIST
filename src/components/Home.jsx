@@ -52,19 +52,19 @@ backgroundColor:"white"
         </div>
         <div className="hidden sm:block">
         <div
-        className="p-5 h-full w-[1850px] sm:h-full sm:w-[330px] sm:overflow-hidden pt-7 mt-2
+        className="p-5 h-full w-[1850px] sm:h-full sm:w-[350px] sm:overflow-hidden pt-7 mt-2
          m-auto sm:mt-0" style={contentBackground}>
         <div
           className=" overflow-hidden"
         >
-          <div className="sm:flex sm:justify-between bg-red-500">
+          <div className="sm:flex sm:justify-between">
             <img
               src={image}
               alt=""
-              className="sm:w-[100px] sm:h-[70px] relative bottom-4"/>
+              className="sm:w-[100px] sm:h-[70px] relative bottom-4 sm:relative sm:right-4"/>
             <FaBars
               className="cursor-pointer sm:cursor-pointer sm:text-blue-700
-              sm:text-2xl text-4xl float-right font-normal hover:text-blue-400 relative top-2"
+              sm:text-2xl text-4xl float-right font-normal hover:text-blue-400 sm:relative sm:top-1"
               onClick={() => setOpen(!open)}
             />
           </div>
@@ -75,8 +75,8 @@ backgroundColor:"white"
           sm:border-b-2 sm:border-white sm:rounded-b-md bg-blue-800 pt-9 sm:w-full"
           >
             <ul
-              className="flex justify-center flex-col gap-10 sm:gap-4 text-center cursor-pointer
-            pb-10" style={Font}
+              className="flex justify-center flex-col gap-10 sm:gap-6 text-center cursor-pointer
+            pb-2" style={Font}
             >
               <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/" target="_self">{navLinks.first}</Link>
@@ -101,7 +101,7 @@ backgroundColor:"white"
         )}
         </div>
         </div>
-        <section className="mt-12">
+        <section className="2xl:mt-4">
         <Careers />
         </section>
       </div>
