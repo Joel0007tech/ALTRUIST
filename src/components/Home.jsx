@@ -5,18 +5,15 @@ import Careers from "./Careers";
 import image from "../assets/altruist-updated-logo.jpg";
 import { FaBars } from "react-icons/fa";
 import { Link as ScrollLink} from 'react-scroll';
-import background from "../assets/altruist-background.jpg"
 
 const Home = () => {
   const Font = {
     fontFamily: "Roboto, sans-serif",
   };
 const contentBackground ={
-  backgroundImage:`url(${background})`,
-  height:"contain",
-  backgroundSize:"cover",
-  backgroundRepeat:"no-repeat"
+backgroundColor:"white"
 }
+
   const [open, setOpen] = useState(false);
   return (
     <div>
@@ -29,22 +26,22 @@ const contentBackground ={
               className="flex justify-center gap-24 sm:gap-2 text-center cursor-pointer pt-16"
               style={Font}
             >
-              <li className="text-white font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
+              <li className="text-blue-600 font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
                 <Link to="/" target="_self">
                   {navLinks.first}
                 </Link>
               </li>
-              <li className="text-white font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
+              <li className="text-blue-600 font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
               <ScrollLink to="collaborate" smooth={true} duration={500}>
                  {navLinks.second}
                </ScrollLink>
               </li>
-              <li className="text-white font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
+              <li className="text-blue-600 font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
               <ScrollLink to="community" smooth={true} duration={500}>
                  {navLinks.third}
                </ScrollLink>
               </li>
-              <li className="text-white font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
+              <li className="text-blue-600 font-bold text-xl sm:text-sm sm:font-semibold hover:text-blue-400">
               <ScrollLink to="volunteers" smooth={true} duration={500}>
                  {navLinks.fourth}
                </ScrollLink>
@@ -60,14 +57,14 @@ const contentBackground ={
         <div
           className=" overflow-hidden"
         >
-          <div className="sm:flex sm:justify-between">
+          <div className="sm:flex sm:justify-between bg-red-500">
             <img
               src={image}
               alt=""
               className="sm:w-[100px] sm:h-[70px] relative bottom-4"/>
             <FaBars
-              className="cursor-pointer sm:cursor-pointer sm:text-white
-              sm:text-2xl text-4xl float-right font-normal hover:text-blue-400 sm:float-right relative top-4"
+              className="cursor-pointer sm:cursor-pointer sm:text-blue-700
+              sm:text-2xl text-4xl float-right font-normal hover:text-blue-400 relative top-2"
               onClick={() => setOpen(!open)}
             />
           </div>
