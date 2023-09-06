@@ -14,7 +14,7 @@ const Careers = () => {
     fontFamily: 'Roboto, sans-serif',
   };
   return (
-    <div>
+    <div data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
         <h3 className='text-black font-bold text-3xl text-center pb-8 capitalize sm:text-xl' style={Font}>
             {Career.firstText}
         </h3>
