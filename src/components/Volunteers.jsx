@@ -25,7 +25,7 @@ Join our  volunteer Team
   </div>
 <details data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
   <summary className='text-center text-white text-2xl font-bold sm:text-xl' style={Font}>Designers</summary>
-  <div className='flex flex-col'data-aos="fade-up">
+  <div className='flex flex-col'data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
   <p className='relative m-auto text-white text-xl text-center' style={Font}>Individuals who would want to use their skills to create<br/>
    appealing graphics for promotional materials, social media,<br/>
     and events to enhance the organization's visual identity..</p>
@@ -38,7 +38,7 @@ Join our  volunteer Team
 </details>
 <details data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
   <summary className='text-center text-white text-2xl font-bold sm:text-xl' style={Font}>Social Media Manager</summary>
-  <div className='flex flex-col' data-aos="fade-up">
+  <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
   <p className='relative m-auto text-white text-xl text-center' style={Font}>Volunteers who are willing to develop content,<br/>
    engage with the audience, run campaigns, and maintain<br/>
     a positive online presence for the organization.</p>
@@ -51,7 +51,7 @@ Join our  volunteer Team
 </details>
 <details data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
   <summary className='text-center text-white text-2xl font-bold sm:text-xl' style={Font}>Content Creator</summary>
-  <div className='flex flex-col' data-aos="fade-up">
+  <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
   <p className='relative m-auto text-white text-xl text-center' style={Font}>volunteers with strong writing skills who<br/>
    can craft compelling content like blog posts,<br/>
     articles, and newsletters to effectively communicate<br/>
@@ -66,7 +66,7 @@ Join our  volunteer Team
 </details>
 <details data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
   <summary className='text-center text-white text-2xl font-bold sm:text-xl' style={Font}>Project/Program Assistant</summary>
-  <div className='flex flex-col' data-aos="fade-up">
+  <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
   <p className='relative m-auto text-white text-xl text-center' style={Font}>volunteers who would love to support project<br/>
    or program management, help with scheduling,<br/>
     documenting, and communication to ensure the<br/> smooth execution of initiatives.</p>

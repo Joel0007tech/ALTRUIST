@@ -77,7 +77,7 @@ backgroundColor:"white"
             <ul
               className="flex justify-center flex-col gap-10 sm:gap-6 text-center cursor-pointer
             pb-2" style={Font}
-            >
+            data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
               <li className="text-white font-bold text-3xl sm:text-sm sm:font-semibold hover:text-gray-500">
                 <Link to="/" target="_self">{navLinks.first}</Link>
               </li>
