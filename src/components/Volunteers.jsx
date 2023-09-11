@@ -23,7 +23,7 @@ Join our  volunteer Team
   <div>
     
   </div>
-<details data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" className='border rounded-full bg-slate-500'>
+<details data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" className='border rounded-full bg-slate-500 p-3'>
   <summary className='text-center text-white text-2xl font-bold sm:text-xl' style={Font}>Designers</summary>
   <div className='flex flex-col'data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
   <p className='relative m-auto text-white text-xl text-center' style={Font}>Individuals who would want to use their skills to create<br/>
@@ -37,7 +37,7 @@ Join our  volunteer Team
           </a>
   </div>
 </details>
-<details data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" className='border rounded-full bg-slate-500'>
+<details data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" className='border rounded-full bg-slate-500 p-3'>
   <summary className='text-center text-white text-2xl font-bold sm:text-xl' style={Font}>Social Media Manager</summary>
 <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
   <p className='relative m-auto text-white text-xl text-center' style={Font}>Volunteers who are willing to develop content,<br/>
@@ -50,7 +50,7 @@ Join our  volunteer Team
           </a>
   </div>
 </details>
-<details data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" className='border rounded-full bg-slate-500'>
+<details data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" className='border rounded-full bg-slate-500 p-3'>
   <summary className='text-center text-white text-2xl font-bold sm:text-xl' style={Font}>Content Creator</summary>
   <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
   <p className='relative m-auto text-white text-xl text-center' style={Font}>volunteers with strong writing skills who<br/>
@@ -65,7 +65,7 @@ Join our  volunteer Team
           </a>
   </div>
 </details>
-<details data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" className='border rounded-full bg-slate-500'>
+<details data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" className='border rounded-full bg-slate-500 p-3'>
   <summary className='text-center text-white text-2xl font-bold sm:text-xl' style={Font}>Project/Program Assistant</summary>
   <div className='flex flex-col' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
   <p className='relative m-auto text-white text-xl text-center' style={Font}>volunteers who would love to support project<br/>
